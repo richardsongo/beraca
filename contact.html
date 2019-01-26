@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<meta itemprop="description" content="Demo Church Site">
+<title>Home - Demo Church Site</title>
+
+<!-- <link rel="manifest" href="/manifest.json"> -->
+<link rel="shortcut icon" href="/development/demo-church/assets/images/icons/favicon.jpg">
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico|Lobster:400,700|Spinnaker|Raleway:400,600">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dosis:600,400,700,300,800,500|Roboto:400,700,700i,300i,300|Amatic+SC:400,700"/>
+
+
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css" />
+<link rel="stylesheet" type="text/css" href="http://www.noisymonkeysacademy.com/themes/NMA/assets/css/noisy-slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/fonts/slick.svg" />  
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/ajax-loader.gif" />
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://www.excellencelab.com/development/bootstrap-kouilou/bootstrap-kouilou.css?v=09:05">
+
+
+
+
+
+
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="/development/demo-church/assets/css/app.css?v=09:05">
+
+
+
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+<script>
+ScrollReveal({ reset: true });
+ScrollReveal({ duration: 1000 })
+</script>
+
+
+ 
+
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+
+</head>
+<body>
+
+<nav id="js-site-header" class="navbar ui-site-header js-site-header navbar-expand-lg navbar-dark ui-bg-transparent text-light fixed-top">
+
+  <a class="navbar-brand" href="/demo-church/">
+    <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">Beraca Church
+  </a>
+
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" onclick="openNav()"><span class="navbar-toggler-icon"></span></button>
+
+
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mx-auto text-bold text-uppercase">
+      <li class="nav-item"><a class="nav-link" href="/demo-church/sermons/">Sermons</a></li>
+      <li class="nav-item"><a class="nav-link" href="/demo-church/about/">About Us</a></li>
+      <li class="nav-item"><a class="nav-link" href="/demo-church/locations/">Locations</a></li>
+      <li class="nav-item"><a class="nav-link" href="/demo-church/get-involved/">Get Involved</a></li>
+      <li class="nav-item"><a class="nav-link" href="/demo-church/giving/">Giving</a></li>
+      <li class="nav-item"><a class="nav-link" href="/demo-church/contact/">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+
+
+
+      <style>
+
+
+.mm-list {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transform: translateY(-8px) translateZ(0) translate3d(0,0,0);
+    -moz-transform: translateY(-8px) translateZ(0) translate3d(0,0,0);
+    -ms-transform: translateY(-8px) translateZ(0) translate3d(0,0,0);
+    -o-transform: translateY(-8px) translateZ(0) translate3d(0,0,0);
+    transform: translateY(-8px) translateZ(0) translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.mm-list li { display:block; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto; line-height: middle; text-transform: uppercase; }
+
+
+.mm-list li a  { text-decoration: none; font-weight: bold;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transition: all 500ms cubic-bezier(0.23,1,.32,1);
+    -moz-transition: all 500ms cubic-bezier(0.23,1,.32,1);
+    -o-transition: all 500ms cubic-bezier(0.23,1,.32,1);
+    transition: all 500ms cubic-bezier(0.23,1,.32,1);
+  }
+
+
+.mm-list li a.mm-list-item { display:block; font-size:24px; color:#aaa; padding:10px 0; border-top: 1px #dedede solid; display:block; position:relative; }
+
+.mm-list li ul.mm-list-2  { padding:0; margin: 0 0 10px 0}
+
+.mm-list li ul.mm-list-2 li a { line-height: 1.5; display:block;}
+
+
+.mm-list li a.mm-list-item.opened  { color:#000; text-decoration: none; }
+
+
+
+
+
+
+
+.mm-list-2     { display:block; padding:0; margin:0; ;}
+.mm-list-2 li a{ font-size:14px; color:#999; padding:8px 0; }
+.mm-list-2 li a:hover { 
+    -webkit-transform: translateX(5px) translateZ(0) translate3d(0,0,0);
+    -moz-transform: translateX(5px) translateZ(0) translate3d(0,0,0);
+    -ms-transform: translateX(5px) translateZ(0) translate3d(0,0,0);
+    -o-transform: translateX(5px) translateZ(0) translate3d(0,0,0);
+    transform: translateX(5px) translateZ(0) translate3d(0,0,0);
+
+}
+
+
+
+
+/**/
+
+
+
+.closed .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+}
+.closed .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+
+
+.opened {
+  opacity: 1;
+}
+.opened .vertical {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+}
+.opened .horizontal {
+  transition: all 0.5s ease-in-out;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+
+
+
+.ui-icon-plus {
+  height: 1.5em;
+  width: 1.55em;
+  font-size: 1em;
+  opacity: .7;
+  position: relative;
+  display: block;
+  float: right;
+
+}
+
+.ui-icon-plus .horizontal {
+  position: absolute;
+  background-color: #aaa;
+  width: 24px;
+  height: 4px;
+  left: 50%;
+  margin-left: -12px;
+  top: 50%;
+  margin-top: -2.5px;
+}
+
+.ui-icon-plus .vertical {
+  position: absolute;
+  background-color: #aaa;
+  width: 4px;
+  height: 24px;
+  left: 50%;
+  margin-left: -2.5px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+
+
+
+
+
+.ui-mobile-menu { padding:10px 0; margin:0; clear:both; display: block; position:relative; }
+
+.ui-close-btn {   
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1;
+        padding-top: .3125rem !important;
+    padding-bottom: .3125rem !important;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+ }
+
+.ui-close-btn:hover {  
+    color: #000;
+    opacity: .5;
+ }
+
+
+
+.ui-close-bar {  width: 35px; height: 4px; display:block; background-color: #000; margin-top:2px;  }
+
+</style>
+
+<div class="full_screen__overlay" id="fpNav">
+
+
+<nav class="navbar ui-site-header js-site-heade ui-mobile-menu navbar-expand-lg navbar-dark ui-bg-transparent text-light fixed-top">
+                            
+  <a class="navbar-brand" href="#">
+    <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top mr-2 ml-3" alt="">Beraca Church
+  </a>
+
+  <a class="close ui-close-btn pr-3" href="javascript:void(0)" onclick="closeNav()">
+    close 
+    <div class="ui-close-bar"></div>
+  </a>
+
+</nav>
+
+
+<div class="container-fluid mobile-menu d-block d-sm-none p-3">
+
+                            <ul class="mm-list p-0 my-0">
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item js-circle-plus" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+
+                                    <div class="ui-icon-plus closed">
+                                        <div class="horizontal"></div>
+                                        <div class="vertical"></div>
+                                    </div>
+                                    <span>About</span>
+                                    </a>
+                                    <ul class="mm-list-2 collapse" id="collapseExample1">
+                                        <li><a href="#!">Who We Are</a></li>
+                                        <li><a href="#!">Leadership</a></li>
+                                        <li><a href="#!">Beliefs</a></li>
+                                        <li><a href="#!">Services</a></li>
+                                        <li><a href="#!">Staffs</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item js-circle-plus" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                      <div class="ui-icon-plus closed">
+                                          <div class="horizontal"></div>
+                                          <div class="vertical"></div>
+                                      </div>
+                                      <span>Get Involved</span>
+                                    </a>
+                                    <ul class="mm-list-2 collapse" id="collapseExample2">
+                                        <li><a href="#!">Events</a></li>
+                                        <li><a href="#!">Community Groups</a></li>
+                                        <li><a href="#!">Serve</a></li>
+                                        <li><a href="#!">Classes</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item" data-toggle="collapse" href="#!"><span>Sermons</span></a>
+                                </li>
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item" data-toggle="collapse" href="#!"><span>Give</span></a>
+                                </li>
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item js-circle-plus" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                      <div class="ui-icon-plus closed">
+                                          <div class="horizontal"></div>
+                                          <div class="vertical"></div>
+                                      </div>
+                                      <span>Link with href</span>
+                                    </a>
+                                    <ul class="mm-list-2 collapse" id="collapseExample3">
+                                        <li><a href="#!">Events</a></li>
+                                        <li><a href="#!">Community Groups</a></li>
+                                        <li><a href="#!">Serve</a></li>
+                                        <li><a href="#!">Classes</a></li>
+                                        <li><a href="#!">Departments</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mm-list-1">
+                                    <a class="mm-list-item js-circle-plus" data-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+                                      <div class="ui-icon-plus closed">
+                                          <div class="horizontal"></div>
+                                          <div class="vertical"></div>
+                                      </div>
+                                      <span>Social</span>
+                                    </a>
+                                    <ul class="mm-list-2 collapse" id="collapseExample4">
+                                        <li><a href="#!">Facebook</a></li>
+                                        <li><a href="#!">Twitter</a></li>
+                                        <li><a href="#!">Instagram</a></li>
+                                        <li><a href="#!">Youtube</a></li>
+                                    </ul>
+       
+                        </li>
+                      </ul>
+
+</div>
+</div>
+
+
+<main class="main-content" id="mContent">
+
+<div class="ui-hero ui-hero-lg mb-0">
+
+    <div class="ui-bg-cover" style="background-image: url(http://excellencelab.com/development/demo-church/images/sheep-690198_640.jpg);"></div>
+
+
+
+    <div class="ui-bg-overlay"></div>
+
+    <div class="container ui-hero__content h-100">
+      <div class="row align-items-center h-100">
+          <div class="col-6 mx-auto">
+              <div class="text-center">
+                  <h1 class="text-uppercase ui-hero__heading display-8 text-light">Contact</h1>
+                  <p class="text-uppercase ui-hero__text text-light"></p>
+                  <button type="button" class="btn btn-light btn-lg btn-square text-uppercase"></button>
+              </div>
+          </div>
+      </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<section class="ui-bg-white mt-5 p-md-5">
+
+	<div class="container">
+
+		<div class="row">
+			
+			<div class="col-md-8 offset-md-2">
+
+							<h1 class="text-center display-4 text-uppercase py-2">Contact</h1>
+							
+							<div class="text-center text-muted">PLEASE SHARE YOUR QUESTIONS OR FEEDBACK WITH US.</div>
+							<hr class="mb-4">
+
+			</div>												
+
+		</div>
+</div>
+</section>
+
+<section class="ui-bg-grey mt-5 p-md-5">
+	<div class="container">
+
+		<div class="row">		
+			<div class="col-md-10 mx-auto">
+				<p class="text-center text-uppercase py-4">Please reach out to us with any questions, comments, or thoughts. <br> We’d love to hear from you. </p>
+				<hr class="mb-4">
+			</div>
+		</div>
+
+		<form class="row needs-validation mb-5 mt-5 js-validate" novalidate="" name="" action="" method="post"> 
+	
+
+<style>
+
+ form .error {color:red; font-size:80%; font-weight:400; font-family: Objective;
+}
+
+</style>
+
+
+	            <div class="col-md-4">
+
+							<div class="form-group">
+					                <label for="firstName"><small class="text-muted">First & Lastname *</small></label>
+					                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+					                <div class="invalid-feedback"><small>Valid first name is required.</small></div>
+					            
+				            </div>
+
+				            <div class="form-group mb-3">
+				              <label for="email"><small class="text-muted">We'd love to follow up with you. What's your email? *</small></label>
+				              <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
+				              <div class="invalid-feedback">Please enter a valid email address for shipping updates.</div>
+				            </div>
+
+				            <div class="form-group mb-3">
+				              <label for="email"><small class="text-muted">Phone number</small></label>
+				              <input type="phone" class="form-control" id="phone" placeholder="xxx.xxx.xxxx">
+				              <div class="invalid-feedback">Please enter a Phone number.</div>
+				            </div>
+
+
+
+			
+					
+			
+
+
+ 
+</div>
+<div class="col-md-8">
+
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><small class="text-muted">Select a topic</small></label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Request more information</option>
+      <option>Prayer request</option>
+      <option>I want to serve</option>
+      <option>Looking for a community group</option>
+      <option>New to Beraca Church</option>
+      <option>I'm interested in Baptism</option>
+      <option>Membership Class</option>
+    </select>
+  </div>
+
+
+<!--
+							<hr class="mb-4">													
+							<label for="newsletter">Newsletter</label>
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="same-address">
+								<label class="custom-control-label" for="same-address">Add me to the newsletter</label>
+							</div>
+
+							Newsletter-->
+
+
+							<div class="form-group">
+								<label for="message"><small class="text-muted">Message *</small></label>
+								<textarea class="form-control" type="text" name="message" id="message" value="" style="height: 107px;" required=""></textarea>
+							</div><!--Message-->
+							
+
+							<button type="submit" class="btn btn-lg btn-block btn-primary">Send Form</button>
+</div>
+	
+</form>
+
+
+
+		</div>
+	</div>
+</section>
+
+<section class="ui-bg-white mt-5 p-md-5">
+
+
+	<div class="container w-container-90 pt-md-5">
+
+
+
+
+		<div class="row">
+			<div class="col-lg-6">
+
+				      <h4 class="text-uppercase font-weight-light">Office address</h4>
+				      <hr class="mb-4">
+				      <p class="text-muted">
+
+				      	<address class="text-muted">
+						Main Church Address<br>
+						2222 Market Avenue, Suite 2000 <br>
+						Surrey, British Columbia, V1M 9X9<br>
+						Canada
+						</address>
+
+
+						<a href="#!" class="flbtn" target="_self">
+							<span class="atxt">Get directions</span>
+							<span class="sline"><span class="sline-inner"></span></span>
+						</a>
+
+
+				      </p>
+
+
+			</div>
+			<div class="col-lg-6">
+
+				      <h4 class="text-uppercase font-weight-light">By Phone</h4>
+				      <hr class="mb-4">
+				      <p class="">
+
+						<span>
+						Church Office Hours<br>
+						1-866-999-9895<br>
+						All times are Pacific Standard Time.<br>
+						Monday – Friday / 9:00 a.m. – 5:00 p.m.<br>
+						Saturday – Sunday / Closed
+						</span>
+
+				      </p>
+
+				      <h4 class="text-uppercase font-weight-light mt-5">By Email</h4>
+				      <hr class="mb-4">
+				      <p class="">You can contact us via our detailed form below, or directly at <a href="/cdn-cgi/l/email-protection#1d74737b725d7f786f7c7e7c7e75686f7e7533726f7a226e687f77787e692055787171723d5f786f7c7e7c"><span class="__cf_email__" data-cfemail="7f161119103f1d1a0d1e1c1e1c170a0d1c1751100d18">[email&#160;protected]</span></a>.</p>
+
+
+				      <h4 class="text-uppercase font-weight-light mt-5">Social Media</h4>
+				      <hr class="mb-4">
+				      <p>You can find us on a few social networks</p>
+
+						<div class="ui-social-links">
+						  <a class="ui-social-link" href="https://www.facebook.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-facebook"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-facebook"></use></svg>	
+						  </a>
+						  <a class="ui-social-link" href="https://twitter.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-twitter"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-twitter"></use></svg>
+						  </a>
+						  <a class="ui-social-link" href="https://www.instagram.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-instagram"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-instagram"></use></svg>
+						  </a>
+						  <a class="ui-social-link" href="https://www.instagram.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md phone-incoming"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#phone-incoming"></use></svg>
+						  </a>
+
+						</div>
+
+
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+
+</section>
+
+
+
+</main>
+
+<section class="site-footer bgc-f9f9f9 p-4">
+	<div class="container">
+		<div class="row">
+
+			<div class="d-flex mx-auto" style="display:none !important"> 
+				<a class="navbar-brand mb-4" href="#!">
+					<img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top text-white text-muted" alt="">
+				</a>
+			</div> 
+
+
+<section id="glyphs">
+<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#maps-and-flags"></use></svg>
+<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#call-answer"></use></svg>
+<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#mail"></use></svg>
+<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#right-quote-sign"></use></svg>
+<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#like"></use></svg>
+</section>
+
+
+
+
+		</div>
+		<div class="row">
+
+
+
+		</div>
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="title mt-5">About Us</div>
+				<div class="py-3">
+				  <div class="sfc-item link"><a class="" href="/demo-church/sermons/">Our Beliefs</a></div>
+				  <div class="sfc-item link"><a class="" href="/demo-church/about/">About Us</a></div>
+				  <div class="sfc-item link"><a class="" href="/demo-church/locations/">Locations</a></div>      
+				  <div class="sfc-item link"><a class="" href="/demo-church/get-involved/">Leadership</a></div>
+				  <div class="sfc-item link"><a class="" href="/demo-church/giving/">Giving</a></div>
+				  <div class="sfc-item link"><a class="" href="/demo-church/contact/">Contact</a></div>
+				</div>
+
+			</div>
+			<div class="col-lg-4">
+
+				<div class="address">
+
+					<div class="address__titl title mt-5">Main Office</div>
+
+					<div class="py-2 address__address sfc-item">
+						<!--<svg class="ui-icon ui-icon-md maps-and-flags"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#maps-and-flags"></use></svg>-->
+						<svg class="icon ui-icon ui-icon-md"><use xlink:href="/development/assets/icons/svg/black/share-icons-svg-sprite.svg#maps-and-flags"></use></svg> 
+						355 - 2729 Vuvuzela Street<br>
+						Nabemba, BC, V6H 3M3
+					</div>
+
+					<div class="py-2 address__phone sfc-item">
+						<svg class="ui-icon ui-icon-md phone-incoming"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#phone-incoming"></use></svg>  
+						<svg class="ui-icon ui-icon-md 002-call-answer.svg"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#002-call-answer.svg"></use></svg>  
+						999.999.9999
+					</div>
+
+        		</div>
+
+			</div>
+			<div class="col-lg-4">
+
+				<div class="title mt-5">Stay in the Know</div>
+<svg class="ui-icon ui-icon-md call-answer"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#call-answer"></use></svg> 
+				<p class="sfc-item">Recevez en avant première les dernières nouveautés &amp; exclusivités</p>
+
+				<div class="input-group mb-3">
+				  <input type="text" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="basic-addon2">
+				  <div class="input-group-append">
+				    <button class="btn btn-secondary" type="button">Subscribe</button>
+				  </div>
+				</div>
+
+
+				<div class="title mt-5">Let's Socialize</div>
+
+						<div class="d-flex mx-auto ui-social-links my-5 sfc-item">
+						  <a class="ui-social-link px-2" href="https://www.facebook.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-facebook"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-facebook"></use></svg>	
+						  </a>
+						  <a class="ui-social-link px-2" href="https://twitter.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-twitter"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-twitter"></use></svg>
+						  </a>
+						  <a class="ui-social-link px-2" href="https://www.instagram.com/" target="blank">
+						  	<svg class="ui-icon ui-icon-md icon-instagram"><use xlink:href="/development/assets/icons/svg/black/symbol-defs.svg#icon-instagram"></use></svg>
+						  </a>
+						</div>
+
+
+
+			</div>		
+
+		</div>
+		
+	</div>
+
+
+<div class="container-fluid mx-0 px-0">
+
+		<hr class="m-2 bgc-f7f7f7">
+
+		<div class="d-flex justify-content-sm-center justify-content-lg-between">
+
+			<div class="d-none d-lg-block py-3"> &copy; 2018 Beraca Church, llc All rights reserved</div>						
+
+			<ul class="list-inline py-3">
+			  <li class="list-inline-item link"><a class="" href="/demo-church/privacy-policy/">Privacy Policy</a></li>      
+			  <li class="list-inline-item link"><a class="text-mute" href="/demo-church/legal/">Terms Of Use</a></li>
+			  <li class="list-inline-item link"><a class="text-mute" href="/demo-church/faq/">FAQ</a></li>
+			  <li class="list-inline-item link"><a class="text-mute" href="/demo-church/sitemap/">Sitemap</a></li>
+			  <li class="list-inline-item link"><a class="text-mute" href="/demo-church/contact/">Contact Us</a></li>
+			</ul>
+
+</div>
+	</div>	
+</section>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+
+<script src="/development/demo-church/assets/js/site-bundle.js"></script>
+<script src="/development/demo-church/assets/js/app.js?v=09:05"></script>
+
+
+<script>
+
+var slideUp = {
+    distance: '20%',
+    easing: 'ease-in',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.js-revel', slideUp);
+
+</script>
+
+
+  <script type="text/javascript">
+  $('.js__slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: true,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 4000,
+  fade: true,
+  dotsClass:'ui-slick-dots',
+  nextArrow: '<div class="ui-slick-next"></div>',
+  prevArrow: '<div class="ui-slick-prev"></div>',
+  cssEase: 'cubic-bezier(0.215, 0.610, 0.355, 1.000)',
+  speed: 800,
+  useTransform: true,
+  });  
+  </script>
+
+<script>
+
+$(document).ready(function () {
+
+$(".js-validate").validate({
+
+ignore: ":hidden",
+/*
+rules: {
+
+            fromName: {
+              required: true,
+              minlength: 2
+            },
+
+            fromEmail: {
+              required: true,
+              email: true
+            }
+},
+
+messages: {
+
+            message: "Please enter a message",
+            
+            fromEmail: {
+              required: "We need your email address to contact you",
+                 email: "Your email address must be in the format of name@domain.com"
+            },
+            
+            fromName: {
+               required: "Please specify your name",
+              minlength: jQuery.validator.format("At least {0} characters required!")
+            }
+},
+*/
+submitHandler: function (form) {
+             $.ajax({
+                 type: "POST",
+                 url: "/contactForm/sendMessage",
+                 data: $(form).serialize(),
+                 success: function () {
+                     $(form).html("<div id='message'></div>");
+                     $('#message').html("<h2>Thank you for sending your message !</h2>")
+                         .append("<p>We will be in touch with you soon. We look forward to answering any questions that you have.</p>")
+                         .hide()
+                         .fadeIn(1500, function () {
+                         $('#message').append("<span class='mdi mdi-check'></span>");
+                     });
+                 }
+             });
+             return false; // required to block normal submit since you used ajax
+         }
+
+});
+});
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+//jQuery(window).trigger('resize').trigger('scroll');
+
+$('.parallax-window').parallax({
+    naturalWidth: 600,
+    naturalHeight: 400
+  });
+
+
+  </script>
+
+     <script>
+         wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+              </script>
+
+<script type="text/javascript">
+//$('.js-circle-plus').on('click', function(){
+//  $(this).toggleClass('opened');
+//})
+
+
+$('.js-faq').click(function(){
+  $(this).toggleClass("opened");
+});
+
+$('.js-circle-plus').click(function(){
+  $(this).toggleClass("opened");
+});
+
+$('.js-fpmodal').modal(options);
+
+</script>
+
+    <script>
+    function openNav() {
+      document.getElementById("fpNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("fpNav").style.width = "0%";
+    }
+    </script>
+
+<script>
+$('body').on('mouseenter mouseleave', '.dropdown', function (e) {
+    var dropdown = $(e.target).closest('.dropdown');
+    var menu = $('.dropdown-menu', dropdown);
+    dropdown.addClass('show');
+    menu.addClass('show');
+    setTimeout(function () {
+        dropdown[dropdown.is(':hover') ? 'addClass' : 'removeClass']('show');
+        menu[dropdown.is(':hover') ? 'addClass' : 'removeClass']('show');
+    }, 300);
+});
+</script>
+
+<script>
+
+$(function() {
+  var $container = $('#js-site-header');
+  var $b = $('body');
+  $.waypoints.settings.scrollThrottle = 0;
+  $container.waypoint({
+    handler: function(e, d) {
+      $b.toggleClass('sticky', d === 'down');
+      e.preventDefault();
+    }
+  });
+});
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
